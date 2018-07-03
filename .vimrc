@@ -14,3 +14,15 @@ set expandtab
 set autoindent
 
 colorscheme apprentice 
+
+let g:TerminusInsertCursorShape=1
+let g:TerminusReplaceCursorShape=2
+
+set laststatus=2
+set noshowmode
+
+let g:lightline = {
+    \ 'colorscheme': 'one',
+    \ }
+
+map <C-n> :NERDTreeToggle<CR>
