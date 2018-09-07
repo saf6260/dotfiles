@@ -7,9 +7,9 @@ filetype plugin indent on
 set relativenumber
 set number
 
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 set autoindent
@@ -31,15 +31,14 @@ let g:lightline = {
 " Control for nerd tree to be opened by CTRL-N
 map <C-n> :NERDTreeToggle<CR>
 
-" Syntastic settings for default work (recommended settings)
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" Control for TagBar to be opened by F8
+nmap <C-l> :TagbarToggle<CR>
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+" Vim-javascript controls
+let g:javascript_plugin_jsdoc = 1
+
+"Vim-JSX (REACT) controls
+let g:jsx_ext_required = 1
 
 " Attempting to stop tmux from using different coloring scheme upon launch
 set background=dark
