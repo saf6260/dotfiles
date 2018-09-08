@@ -136,14 +136,15 @@ cd ~/.vim/bundle/YouCompleteMe
 ```
 This sets up tab completion for all languages. 
 More information and troubleshooting can be found here: https://vimawesome.com/plugin/youcompleteme
-### 12. Current Theme: apprentice
+### 12. Current Theme: papaya
 Sets coloring for word syntax
 ```
 cd ~/.vim/bundle
-git clone https://github.com/romainl/apprentice
+git clone https://github.com/henrynewcomer/vim-theme-papaya
 ```
 I also added the following to make sure the correct color schemes are being used:
 ```
+set colorscheme=papaya
 set background=dark
 set t_Co=256 
 ```

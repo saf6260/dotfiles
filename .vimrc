@@ -14,7 +14,7 @@ set expandtab
 
 set autoindent
 
-colorscheme apprentice 
+colorscheme papaya 
 
 " Controls Cursor shape depenedent on mode of editing
 let g:TerminusInsertCursorShape=1
