@@ -44,10 +44,11 @@ let g:lightline = {
     \ 'colorscheme': 'one',
     \ }
     
-set laststatus = 2 #makes sure the correct status information shows at the bottome right of the line
-set noshowmode #helps with getting rid of the default double bar at the bottom
+set laststatus = 2 " makes sure the correct status information shows at the bottome right of the line
+set noshowmode " helps with getting rid of the default double bar at the bottom
 ```
 Other colorschemes are available at https://vimawesome.com/plugin/lightline-vim
+I use a theme called one which is a little lighter than the default installer's color
 ### 4. Nerd Commenter
 Helps commenting look cleaner in files
 ```
@@ -64,6 +65,11 @@ git clone https://github.com/scrooloose/nerdtree
 From there, the following sets the keyboard shortcut for opening the side tab:
 ```
 map <C-n> :NERDTreeToggle<CR>
+```
+I also changed the arrows for directory information to the '+' '-' symbols. Here's how to do it:
+```
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '-'
 ```
 By default, the shortcut is set to Control + N
 ### 6. TagBar
