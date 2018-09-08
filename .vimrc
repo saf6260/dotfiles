@@ -30,6 +30,8 @@ let g:lightline = {
 
 " Control for nerd tree to be opened by CTRL-N
 map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '-'
 
 " Control for TagBar to be opened by F8
 nmap <C-l> :TagbarToggle<CR>
