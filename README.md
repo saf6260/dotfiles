@@ -170,3 +170,6 @@ Scott Frauenknecht saf6260@rit.edu Second Year Software Engineering Student at R
 
 ## Information
 This document was last updated September 8th, 2018. If there are any major changes or issues, please post an issue so that it can be addressed properly.
+
+## Shameless Plug
+If you are looking to see more of what I have completed, feel free to visit my website www.scottalexf.com or any of my other git repositories found at https://github.com/saf6260
