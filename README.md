@@ -39,9 +39,10 @@ cd ~/.vim/bundle
 git clone https://github.com/itchyny/lightline.vim
 ```
 For lightline to function properly, please also put the following in your .vimrc
+I am currenly using the lightline theme connected to my colorscheme palenight, however there are a lot of other options out there for use
 ```
 let g:lightline = {
-    \ 'colorscheme': 'one',
+    \ 'colorscheme': 'palenight',
     \ }
     
 set laststatus = 2 " makes sure the correct status information shows at the bottome right of the line
@@ -136,7 +137,7 @@ cd ~/.vim/bundle/YouCompleteMe
 ```
 This sets up tab completion for all languages. 
 More information and troubleshooting can be found here: https://vimawesome.com/plugin/youcompleteme
-### 12. Current Theme: papaya
+### 12. Current Theme: palenight
 Sets coloring for word syntax
 ```
 cd ~/.vim/bundle
@@ -144,7 +145,7 @@ git clone https://github.com/henrynewcomer/vim-theme-papaya
 ```
 I also added the following to make sure the correct color schemes are being used:
 ```
-set colorscheme=papaya
+set colorscheme=palenight
 set background=dark
 set t_Co=256 
 ```

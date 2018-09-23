@@ -14,7 +14,8 @@ set expandtab
 
 set autoindent
 
-colorscheme papaya 
+set background=dark
+colorscheme palenight
 
 " Controls Cursor shape depenedent on mode of editing
 let g:TerminusInsertCursorShape=1
@@ -25,7 +26,7 @@ set noshowmode
 
 " Controls bottomw bar color scheme
 let g:lightline = {
-    \ 'colorscheme': 'one',
+    \ 'colorscheme': 'palenight',
     \ }
 
 " Control for nerd tree to be opened by CTRL-N
