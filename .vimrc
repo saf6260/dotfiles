@@ -46,3 +46,9 @@ let g:jsx_ext_required = 1
 " Attempting to stop tmux from using different coloring scheme upon launch
 set background=dark
 set t_Co=256 
+
+" Removing arrow keys from functionality (trying to break some habbits) "
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
